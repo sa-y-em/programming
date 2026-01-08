@@ -176,6 +176,50 @@ div p{
     padding: 30px;
     
 }
+#top{
+    font-size: 35px;
+    color: #181818;
+    margin-top: 130px;
+    margin-bottom: 113px;
+    text-align: center;
+    
+}
+.jamela{
+    display: flex;
+  padding-left: 230px;
+  padding-right: 277px;
+  padding-bottom: 50px;
+  gap: 24px;
+}
+#h{
+    margin-top: 130px;
+    margin-bottom: 113px;
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+}
+.my{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #474747;
+}
+.resume-text h3{
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume-text p{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
 
-  
+    
+}
+#Download-btn{
+    align-items: center;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
     
