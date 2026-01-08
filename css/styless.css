@@ -20,6 +20,8 @@
 }
 .navigation{
     background-color: #FFF8F3;
+     
+   
     
 }
 nav{
@@ -62,6 +64,7 @@ li a{
     
     font-size: 20px bold;
     color: white;
+    cursor: pointer;
 }
 /* end of header edits */
 section{
@@ -72,6 +75,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFF8F3;
 }
 hi{
     font-size: 45px;
@@ -88,5 +92,19 @@ font-weight: bold;
     font-size: 18px;
     color: #757575;
     margin: 20px 0px;
+}
+.navigation{
+    background: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: #FFF8F3;
+    
+}
+.img img{
+    background-image: url(../images/header_bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
+    vertical-align: middle;
 }
     
