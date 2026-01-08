@@ -139,5 +139,24 @@ font-weight: bold;
     padding: 30px 22px 159px 22px;
     
 }
+.third{
+    width:71%;
+    max-width: 1077px;
+    margin: 102px 263px 158px 260px;
+}
+.what{
+    text-align: center;
+    align-items: center;
+}
+div h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+div p{
+    font-size: 18px;
+    
+    padding-bottom: 50px;
+}
+
   
     
