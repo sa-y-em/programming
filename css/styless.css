@@ -15,7 +15,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: #FFF8F3;
+    /* background-color: #FFF8F3; */
     
 }
 .navigation{
@@ -67,7 +67,7 @@ li a{
     cursor: pointer;
 }
 /* end of header edits */
-section{
+.conimg{
      border: 1px solid red;
      margin: 38px 42px 0px 230px;
 }
@@ -107,4 +107,37 @@ font-weight: bold;
     background-color: #FFF8F3;
     vertical-align: middle;
 }
+.aboutme{
+    margin: 0px;
+    padding: 0px;
+}
+.second{
+    margin: 158px 238px 102px 230px;
+    background-color: #FFF8F3;
+    border: 1px solid red;
+    width: 71%;
+    max-width: 1140px;
+}
+#about-me {
+     padding-top: 103px ; 
+     text-align: center;
+    
+   
+}
+#about-me h2{
+     padding-bottom: 30px;
+        font-size: 35px;
+}
+#about-me p{
+    font-size: 18px;
+    color: #757575;
+}
+.info{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 30px 22px 159px 22px;
+    
+}
+    
     
