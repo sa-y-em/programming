@@ -96,7 +96,7 @@ font-weight: bold;
 .navigation{
     background: url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: 38px 18px;
     background-color: #FFF8F3;
     
 }
@@ -221,5 +221,29 @@ div p{
     text-align: center;
     margin-bottom: 100px;
 }
-
+.last{
+    background-color: #FFF8F3;
+    padding-top: 130px;
+    padding-bottom: 20px;
     
+    
+}
+.last-page{
+    display: flex;
+    background-color: #FFF8F3;
+    padding-left: 230px;
+    justify-content: center;
+    gap: 117px;
+}
+.icon{
+    gap: 24px;
+}
+form input[type="text"], input[type="email"], textarea{
+    width: 461px;
+    padding: 12px 349px 18px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   padding-right: 230px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
