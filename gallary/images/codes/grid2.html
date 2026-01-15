@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: gray;
+            padding: 50px;
+            text-align: center;
+            
+          
+        }
+        .container{
+            display: grid;
+              gap:10px;
+              grid-template-columns:repeat(4 , 200px);
+              grid-column: 4;
+              grid-row: 5;
+        }
+        .first{
+            grid-row: span 5;
+        }
+        .color-class{
+            background-color: hwb(0 41% 4%);
+        }
+        .last{
+            grid-column: span 3;
+           
+        }
+        #center{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="box first" id="center">box no 1</div>
+       
+        <div class="box">box no 2</div>
+        <div class="box">box no 3</div>
+        <div class="box">box no 4</div>
+        <div class="box">box no 5</div>
+        <div class="box color-class">box no 6</div>
+        <div class="box color-class">box no 7</div>
+        <div class="box">box no 8</div>
+        <div class="box color-class">box no 9</div>
+        <div class="box color-class">box no 10</div>
+        <div class="box last">box no 11</div>
+        <div class="box last">box no 12</div>
+
+
+        </div>
+    </div>
+</body>
+</html>
